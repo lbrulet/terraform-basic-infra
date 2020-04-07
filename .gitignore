@@ -1,6 +1,9 @@
 # Local .terraform directories
 **/.terraform/*
 
+#jetbrain IDE
+.idea/
+
 # .tfstate files
 *.tfstate
 *.tfstate.*
