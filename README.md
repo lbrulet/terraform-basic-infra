@@ -1,10 +1,13 @@
 # Terraform basic infra
 
 This is a repository to deploy an infrastructure that have 
-- a custon vpc with 9 subnet, 3 publics, 3 privates, 3 for data
+- a custom vpc with 9 subnets, 3 publics, 3 privates, 3 subnets for data
 - keypair already generated
-- launch configuration, autoscaling group
-- application load balancer with target group and a listener as well
+- launch configuration, autoscaling group into the private subnets for high availability
+- application load balancer with target group and a listener as well into the public subnets for high availability
+- rds postgres 9.6.16 in data subnet for high availability.
+
+![alt text](https://raw.githubusercontent.com/lbrulet/terraform-basic-infra/master/picture/aws.PNG)
 
 ## Installation
 
