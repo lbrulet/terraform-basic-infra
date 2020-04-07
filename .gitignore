@@ -2,7 +2,7 @@
 **/.terraform/*
 
 #jetbrain IDE
-.idea/
+.idea/*
 
 # .tfstate files
 *.tfstate
